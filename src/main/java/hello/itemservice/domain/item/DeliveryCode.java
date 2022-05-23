@@ -12,7 +12,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class DeliveryCode {
 
-    private String code;
-    private String displayName;
+    private String code;            //server에서 사용하는 값 : FAST
+    private String displayName;     //client에게 보여주는 값 : 빠른 배송
 
 }
